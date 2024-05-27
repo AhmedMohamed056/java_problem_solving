@@ -9,7 +9,7 @@ public class Name {
 
     public static void Capitalize(String Name){
         String Cname=Name.substring(0,1).toUpperCase();
-        String C1name=Cname.substring(1).toLowerCase();
-        System.out.println(Cname+C1name);
+       String C1name=Name.substring(1).toLowerCase();
+       System.out.println(Cname+C1name);
     }
 }

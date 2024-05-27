@@ -17,6 +17,9 @@ public class Pipes {
             for (int j = 0; j < arr.length; j++) {
                 if (resl<scan1){
                     resl += arr[j];
+                    if (resl<scan1){
+                        System.out.println(arr[j]);
+                    }
                     if (resl>scan1){
                         resl-=arr[j];
                     }
